@@ -8,7 +8,6 @@ The project focuses on the complete machine learning workflow, including data pr
 
 Rather than relying on complex localization algorithms, the project investigates how a carefully designed k-Nearest Neighbors (k-NN) approach can be enhanced through domain knowledge and signal-aware preprocessing techniques.
 
----
 
 ## Objectives
 
@@ -18,7 +17,6 @@ Rather than relying on complex localization algorithms, the project investigates
 - Evaluate model robustness using cross-validation and hyperparameter tuning
 - Gain practical experience with real-world noisy sensor data
 
----
 
 ## Dataset
 
@@ -33,7 +31,6 @@ Each observation contains:
 
 To improve data quality, only the most stable access points were selected for modeling.
 
----
 
 ## Data Preparation
 
@@ -48,7 +45,6 @@ Several preprocessing steps were performed before model development:
 
 The project highlights the importance of data cleaning and preprocessing in achieving reliable machine learning results.
 
----
 
 ## Exploratory Data Analysis (EDA)
 
@@ -62,7 +58,6 @@ The exploratory phase focused on understanding:
 
 Several visualizations were created to identify patterns and better understand how signal behavior influences localization performance.
 
----
 
 ## Modeling Approach
 
@@ -93,7 +88,6 @@ Neighbors were weighted according to their distance from the query point.
 
 Closer observations received greater influence on the final position estimate, reducing the impact of less relevant neighbors.
 
----
 
 ## Hyperparameter Optimization
 
@@ -108,7 +102,6 @@ were evaluated to identify the most robust configuration.
 
 This process helped reduce overfitting and ensured that model selection was based on systematic evaluation rather than manual trial and error.
 
----
 
 ## Technologies Used
 
@@ -120,7 +113,6 @@ This process helped reduce overfitting and ensured that model selection was base
 - Seaborn
 - Jupyter Notebook
 
----
 
 ## Key Learnings
 
@@ -138,7 +130,6 @@ This project provided practical experience in:
 
 One of the most important lessons learned was that data quality and domain-specific preprocessing often have a greater impact on performance than the choice of machine learning algorithm itself.
 
----
 
 ## Future Improvements
 
